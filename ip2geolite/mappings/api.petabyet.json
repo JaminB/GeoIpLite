@@ -1,0 +1,15 @@
+{
+  "host": "http://api.petabyet.com",
+  "switch_param_and_endpoint": false,
+  "endpoint": "geoip",
+  "fields": {
+    "asn": "asn",
+    "city": "city",
+    "country": "country",
+    "country_code": "cc",
+    "latitude": "latitude",
+    "longitude": "longitude",
+    "org": "organization",
+    "postal_code": "postal"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "host": "https://extreme-ip-lookup.com",
+  "switch_param_and_endpoint": false,
+  "endpoint": "json",
+  "fields": {
+    "city": "city",
+    "country": "country",
+    "countryCode": "cc",
+    "ipName": "dns_name",
+    "lat": "latitude",
+    "lon": "longitude",
+    "org": "organization"
+  }
+}

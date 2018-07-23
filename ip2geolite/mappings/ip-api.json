@@ -1,0 +1,15 @@
+{
+  "host": "http://ip-api.com",
+  "endpoint": "json",
+  "switch_param_and_endpoint": false,
+  "fields": {
+    "as": "asn",
+    "city": "city",
+    "country": "country",
+    "countryCode": "cc",
+    "lat": "latitude",
+    "lon": "longitude",
+    "org": "organization",
+    "zip": "postal"
+  }
+}

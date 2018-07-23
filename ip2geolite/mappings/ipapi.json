@@ -1,0 +1,15 @@
+{
+  "host": "https://ipapi.co",
+  "endpoint": "json",
+  "switch_param_and_endpoint": true,
+  "fields": {
+    "asn": "asn",
+    "city": "city",
+    "country_name": "country",
+    "country": "cc",
+    "lat": "latitude",
+    "lon": "longitude",
+    "org": "organization",
+    "postal": "postal"
+  }
+}
