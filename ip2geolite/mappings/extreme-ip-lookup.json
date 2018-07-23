@@ -7,6 +7,7 @@
     "country": "country",
     "countryCode": "cc",
     "ipName": "dns_name",
+    "region": "region",
     "lat": "latitude",
     "lon": "longitude",
     "org": "organization"

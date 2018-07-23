@@ -9,6 +9,8 @@
     "country_code": "cc",
     "latitude": "latitude",
     "longitude": "longitude",
+    "region_code": "rc",
+    "region": "region",
     "org": "organization",
     "postal_code": "postal"
   }

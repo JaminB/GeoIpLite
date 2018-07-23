@@ -10,6 +10,8 @@
     "lat": "latitude",
     "lon": "longitude",
     "org": "organization",
+    "region": "rc",
+    "regionName": "region",
     "zip": "postal"
   }
 }

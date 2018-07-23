@@ -23,6 +23,8 @@ CREATE_LOCATION_TABLE = '''
         latitude float,
         longitude float,
         org text,
+        postal text,
+        rc text,
         region text
     );
 '''
@@ -36,7 +38,7 @@ DROP_LOCATION_TABLE = '''
 '''
 
 INSERT_LOCATION = '''
-    INSERT INTO ip_locations VALUES (?,?,?,?,?,?,?,?,?,?,?,?);
+    INSERT INTO ip_locations VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?);
 '''
 
 SELECT_LOCATION_BY_IP = """
@@ -74,7 +76,9 @@ class IPLookup:
         self.latitude = None
         self.longitude = None
         self.org = None
+        self.rc = None
         self.region = None
+        self.postal = None
         self.fetch()
 
     def __str__(self):
@@ -89,7 +93,9 @@ class IPLookup:
             latitude=self.latitude,
             longitude=self.longitude,
             org=self.org,
-            region=self.region
+            rc=self.rc,
+            region=self.region,
+            postal=self.postal
         ), indent=2)
 
     def _get_random_lookup_api(self):
@@ -133,7 +139,9 @@ class IPLookup:
                self.latitude,
                self.longitude,
                self.org,
-               self.region
+               self.rc,
+               self.region,
+               self.postal
                ]
         c.execute(INSERT_LOCATION, res)
         conn.commit()
