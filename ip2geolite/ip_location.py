@@ -174,7 +174,7 @@ class IPLookup:
         except Exception as e:
             stderr.write(str(e) + '\n')
             if attempts == 0:
-                self.fetch(attempts=attempts+1)
+                self.fetch(attempts=attempts - 1)
             else:
                 return False
 
