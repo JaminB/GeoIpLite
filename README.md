@@ -26,6 +26,38 @@ print(ip_location.IPLookup('8.8.8.8'))
 scripts/ip_lookup.py 4.4.4.4 8.8.8.8
 ```
 
-
+## Output
+```
+{
+  "org": null,
+  "city": null,
+  "country": "United States",
+  "dns_name": "alu7750testscr.xyz1.gblx.mgmt.level3.net",
+  "ip": "4.4.4.4",
+  "rc": "New York",
+  "region": null,
+  "cc": "US",
+  "postal": null,
+  "asn": null,
+  "isp": null,
+  "latitude": 40.7111,
+  "longitude": -73.9469
+}
+{
+  "org": null,
+  "city": "Mountain View",
+  "country": "United States",
+  "dns_name": null,
+  "ip": "8.8.8.8",
+  "rc": "California",
+  "region": "94043",
+  "cc": "US",
+  "postal": "CA",
+  "asn": "AS15169 Google LLC",
+  "isp": null,
+  "latitude": 37.4229,
+  "longitude": -122.085
+}
+```
 
 
